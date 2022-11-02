@@ -1,0 +1,39 @@
+@media screen and (min-width: 800px) {
+    .corpo__card {
+        transition: .5s;
+    }
+    
+    .corpo__card:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .corpo__card:nth-child(1) {
+        grid-area: card1;
+        background-position: right 130px top;
+    }
+    
+    .corpo__card:nth-child(2) {
+        grid-area: card2;
+    }
+    
+    .corpo__card:nth-child(3) {
+        grid-area: card3;
+    }
+    
+    .corpo__card:nth-child(4) {
+        grid-area: card4;
+    }
+    
+    .corpo__card:nth-child(5) {
+        grid-area: card5;
+    }
+
+    .card__destaque {
+        font-size: 28px;
+    }
+
+    .card__comentario {
+        font-size: 18px;
+        text-align: start;
+    }
+}

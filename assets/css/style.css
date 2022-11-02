@@ -1,0 +1,18 @@
+@import url('mobile/body.css');
+@import url('mobile/main.css');
+@import url('mobile/main_corpo.css');
+
+@import url('desktop/body.css');
+@import url('desktop/main.css');
+@import url('desktop/main_corpo.css');
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    --branco_azulado: hsl(210, 46%, 95%);
+    --cinza_azulado: hsl(217, 19%, 35%);
+    --cinza_claro: hsl(0, 0%, 81%);
+    --cinza_escuro: hsl(219, 29%, 14%);
+    --roxo: hsl(263, 55%, 52%);
+
+    --fonte: 'Barlow Semi Condensed', sans-serif;
+}
