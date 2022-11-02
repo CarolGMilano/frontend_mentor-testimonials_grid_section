@@ -29,11 +29,11 @@
     }
 
     .card__destaque {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .card__comentario {
-        font-size: 18px;
+        font-size: 16px;
         text-align: start;
     }
 }
